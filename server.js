@@ -9,7 +9,7 @@ app.use(bodyParser.json());
 const PORT = process.env.PORT || 3000; 
 
 // !!! URL-UL DE LA PASUL 3 SE ADAUGĂ AICI !!!
-const SHEETS_API_URL = 'URL-UL COPIAT DE LA PASUL 3'; 
+const SHEETS_API_URL = 'https://script.google.com/macros/s/AKfycbwyJjJaoyGECkV9MwB5NGpgzX2aja49jXeOmfAf2LYnem9C75TPADTnLcVMNIrx6F1e/exec'; 
 // !!! NU UITA SA INSEREZI LINKUL TAU !!!
 
 app.post('/', async (req, res) => { 
@@ -80,3 +80,4 @@ app.post('/', async (req, res) => {
 app.listen(PORT, () => {
   console.log(`Serverul este live pe portul ${PORT}!`);
 });
+
